@@ -1,0 +1,77 @@
+ *{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.5rem;
+    font-size: 16px;
+ }
+ body { 
+    width: 1024px;
+    margin:0px auto;
+    background-color: #fef5e7;
+}
+.contenedor{
+    width: 980px;
+    background-color: #ffffff;
+    padding: 50px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 20px grey;
+}
+.header{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.foto{
+    width: 250px;
+    height: 250px;
+}
+.cabecera{
+    padding-left: 20px;
+}
+.cuerpo{
+    display: flex;
+    margin-top: 20px;
+}
+.zona_iz{
+    width: 280px;
+    background-color:#333333;
+    padding: 20px;
+    color: #dddddd;
+    text-align:justify;
+    font-size: 14px;
+
+}
+.zona_dr{
+    width: 730px;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+h1{
+    font-size: 26px;
+    font-weight: 650;
+}
+h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+hr{
+    border-color:azure;
+}
+a{ /* Manejamos las caracteristicas de los links*/
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    }
+    a:link {
+    color: #fff;
+    }
+    a:visited {
+    color: #fff;
+    }
+    a:hover {
+    border-bottom: 2px solid;
+    }
+
