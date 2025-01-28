@@ -82,4 +82,23 @@ a{ /* Manejamos las caracteristicas de los links*/
     border-bottom: 2px solid;
     color:goldenrod;
     }
-
+table{
+    margin: 15px;
+    padding: 15px;
+    border-style:solid;
+    width: 950px;
+    }
+.centro{
+    text-align: center;
+    align-items: center;
+}
+.td1{
+    width: 200px;
+}
+.td2{
+    width: 480px;
+    text-align: center;
+}
+.td3{
+    width: 300px;
+}
